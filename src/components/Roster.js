@@ -6,7 +6,7 @@ import Player from './Player';
 const Roster = () => (
     <Switch>
         <Route exact path='/Roster' component={FullRoster} />
-        <Route path = '/Roster/:number' component={Player} />
+        <Route path='/Roster/:number' component={Player} />
     </Switch>
 )
 

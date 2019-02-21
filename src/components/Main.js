@@ -8,9 +8,9 @@ import Roster from './Roster';
 const Main = () => (
     <main>
         <Switch>
-            <Route exact path='/' componenet={Home} />
+            <Route exact path='/' component={Home} />
             <Route path='/roster' component={Roster} />
-            <Route path='schedule' component={Schedule}/>
+            <Route path='/schedule' component={Schedule}/>
         </Switch>
     </main>
 )
